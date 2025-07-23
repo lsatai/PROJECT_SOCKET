@@ -127,7 +127,7 @@ int main() {
     outFile.close();
 
     // 7. Run ClamAV scan
-    std::string result = scanFileWithTimeout(TEMP_FILENAME, 30000); // 10 sec timeout (in miliseconds)
+    std::string result = scanFileWithTimeout(TEMP_FILENAME, 30000); // 30 sec timeout (in miliseconds)
     std::cout << "Scan result: " << result << std::endl;
 
     // 8. Send result back to client
