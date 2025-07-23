@@ -1,0 +1,10 @@
+Program is using:
+    PORT: 8888 (line 11)
+    Max buffer size: 4096 (line 12)
+    Reading file name: received_file.tmp (line 13)
+    Timeout: 30 seconds (line 120)
+
+Client side:
+    Can receive either: "TIMEOUT", "OK", "INFECTED", "ERROR"
+    "ERROR" --> wrong configuration of virus file
+
